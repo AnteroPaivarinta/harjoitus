@@ -70,7 +70,7 @@ const App = () => {
       }
     };
     fetchData();
-  }, [selectedRow], );
+  }, [], );
 
   return (
     <Box
