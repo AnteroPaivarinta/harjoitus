@@ -2,8 +2,6 @@
 
 This project contains the backend and frontend services for the application. Make sure you have Docker and Node.js installed on your machine before getting started.
 
-> **Note:** This project allows you to run both the REST API and the database locally as well as in the Azure cloud environment.
-
 
 
 ## 🚀 Setup & Installation
@@ -24,10 +22,23 @@ npm install
 cd ..
 
 
-## 📸 Proof of Deployment & Interface
+---
 
-### Azure Cloud REST API
-![Azure Data Architecture](./README_Assets/azure_data.png)
+## 📸 Cloud Architecture Proof (Azure)
 
-### User Interface
-![User Interface](./README_Assets/UI.png)
+
+
+![Azure REST json data from Container Apps](./README_Assets/azure_data.png)
+
+---
+
+
+---
+
+## 📸 Cloud Architecture Proof (Azure)
+
+
+
+![Front-End UI](./README_Assets/UI.png)
+
+---
