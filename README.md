@@ -13,15 +13,23 @@ Follow these steps to set up and run the application in your local development e
 Run the following commands starting from the project root
 
 ```bash
+
+
+# Navigate to the backend directory, execute setup scripts, and install dependencies
+cd backend
+sh commands.sh
+cd ..
+
+
 # Start Docker containers (forces build and renews anonymous volumes)
 cd backend/dev-academy-autumn-2026-exercise/
 docker compose up --build --renew-anon-volumes -d
+cd ../..
 
-# Navigate to the backend directory, execute setup scripts, and install dependencies
-cd ..
-sh commands.sh
+# Install front end packages
 npm install
-cd ..
+
+
 ```
 
 ---
