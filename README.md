@@ -2,6 +2,7 @@
 
 This project contains the backend and frontend services for the application. Make sure you have Docker and Node.js installed on your machine before getting started.
 
+![Front-End UI](./README_Assets/UI.png)
 
 
 ## 🚀 Setup & Installation
@@ -20,25 +21,11 @@ cd backend
 sh commands.sh
 npm install
 cd ..
-
-
----
-
-## 📸 Cloud Architecture Proof (Azure)
-
-
-
-![Azure REST json data from Container Apps](./README_Assets/azure_data.png)
+```
 
 ---
 
 
----
+# Azure REST-API Container Apps Data
 
-## 📸 Cloud Architecture Proof (Azure)
-
-
-
-![Front-End UI](./README_Assets/UI.png)
-
----
+![Front-End UI](./README_Assets/azure_data.png)
