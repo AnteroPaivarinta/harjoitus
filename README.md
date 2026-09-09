@@ -55,3 +55,9 @@ npx playwright test
 # Azure REST-API Container Apps Data
 
 ![Front-End UI](./README_Assets/azure_data.png)
+
+
+# Where Did I use AI?
+I used AI to assist with selecting UI components, creating tests, and commenting the code.
+
+Azure Container Apps was a familiar concept to me, but I had not used the actual service before. I used AI to learn how to utilize Azure Container Apps and how to deploy and run the backend containers, including the REST API and database, in the Azure environment.
