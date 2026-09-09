@@ -57,6 +57,14 @@ npx playwright test
 ![Front-End UI](./README_Assets/azure_data.png)
 
 
+# Usage
+You can filter the data by clicking a column header and then clicking the three-dot icon.
+
+If you are running the application in the cloud, please wait a moment (up to 30 seconds) for the data to be retrieved from the database.
+
+
+
+
 # Where Did I use AI?
 I used AI to assist with selecting UI components, creating tests, and commenting the code.
 
