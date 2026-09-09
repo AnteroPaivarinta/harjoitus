@@ -2,12 +2,21 @@ import { LineChart } from '@mui/x-charts/LineChart';
 import type { IElectricityData, ISingleDayChartProps } from '../../types/types';
 import chartSettings from './chartSettings.ts';
 import Card from '@mui/material/Card';
-import CardContent from '@mui/material/CardContent';
-import Typography from '@mui/material/Typography';
-import CardActionArea from '@mui/material/CardActionArea';
 
 export const SingleDayLineChart = ( props: ISingleDayChartProps ) => {
 
+
+  // Prepare the data for the MUI LineChart.
+  //
+  // The data is first sorted by start time to make sure that
+  // the points appear in chronological order on the chart.
+  //
+  // The hour is extracted from the timestamp and converted to a number.
+  // The hourly electricity price is used as the value for the line.
+  // If the price is null, 0 is used instead.
+
+
+  // The electricity data for the selected day is received through props.
   const data: IElectricityData[] = props.data;
 
   const dataSet = [...data]

@@ -6,7 +6,9 @@ import type { ISingleDayCardCataProps } from '../../types/types';
 import { Box } from '@mui/material';
 
 export const SingleDayCard = (props: ISingleDayCardCataProps) => {
-
+  
+  // Extract the calculated values from the data received through props. 
+  // // The optional chaining fallback prevents errors if data is undefined.
   const {
     totalConsumption,
     averagePrice,
