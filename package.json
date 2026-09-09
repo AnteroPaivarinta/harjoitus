@@ -5,8 +5,10 @@
   "type": "module",
   "scripts": {
     "dev": "concurrently \"npm run dev:backend\" \"npm run dev:frontend\"",
+    "dev:cloud": "concurrently \"npm run dev:backend\" \"npm run dev:frontend:cloud\"",
     "dev:backend": "cd backend && npm run dev",
     "dev:frontend": "vite",
+    "dev:frontend:cloud": "vite --mode cloud",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview",

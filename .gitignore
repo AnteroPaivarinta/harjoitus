@@ -26,3 +26,5 @@ dist-ssr
 .terraform/
 *.tfstate
 *.tfstate.*
+**/terraformkoodit.sh
+**/terraformCommands.sh

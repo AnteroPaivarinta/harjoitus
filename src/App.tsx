@@ -54,15 +54,13 @@ const App = () => {
     console.log("SELECTEDROW", data.allTableData);
   }, [selectedRow], );
 
-  
-
   return (
     <Box
       className="min-h-screen bg-gradient-to-br from-blue-900 via-purple-900 to-emerald-900"
       sx={{
-          width: "100vw",
-          height: "100vh",
-          display: "flex",
+        width: "100%",
+        height: "100vh",
+        display: "flex",
       }}
     >
       <Box
@@ -70,12 +68,14 @@ const App = () => {
           flex: "1",
           display: "flex",
           flexDirection: "column",
+          width: "100%",
+          height: "100%"
         }}  
       >
         <Box 
           sx={{
             flex: 1,
-            margin: 5
+            p: 5
           }}
         >
           <SingleDayLineChart data={
@@ -84,7 +84,7 @@ const App = () => {
         </Box>
         <Box
           sx={{
-            margin: 5,
+            p: 5,
             flex: 1
           }}
         >
@@ -93,9 +93,11 @@ const App = () => {
       </Box>
       <Box
         sx={{
-          flex: "1",
-          width: "100%",
-          margin: 5
+          flex: 1,
+          minHeight: 0,
+          minWidth: 0,
+          p: 5,
+          display: "flex"
         }} 
       >
         <DataGrid
