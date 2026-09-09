@@ -11,7 +11,6 @@ import SingleDayCard from './components/SingleDayCard/SingleDayCard';
 import calculateTotalConsumption from './functions/calculateTotalConsumption';
 import calculateTotalProduction from './functions/calculateTotalProduction';
 import { calculateAveragePricePerDay } from './functions/calculateAveragePricePerDay';
-import { API_URL } from './config';
 
 
 const App = () => {

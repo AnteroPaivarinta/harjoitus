@@ -25,6 +25,17 @@ cd ..
 
 ---
 
+### 2. Test
+ JEST files can be found in src/functions folder and E2E tests can be found in /src/e2e folder. Run the following commands for running tests from the project root
+
+```bash
+# Run JEST tests 
+npm test
+
+#Run e2e tests
+npx playwright test
+```
+
 
 # Azure REST-API Container Apps Data
 
