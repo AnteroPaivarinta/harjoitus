@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import type { IElectricityData,  IElectricityTableData, IStateData } from './types/types';
 import './App.css';
 import Box from '@mui/material/Box';
-import { DataGrid, type GridColDef } from '@mui/x-data-grid';
+import { DataGrid } from '@mui/x-data-grid';
 import Columns from './columns/columns';
 import { fetchDashboardData } from './functions/fetchTableData';
 import longestNegativePriceHours from './functions/longestNegativePriceHours';

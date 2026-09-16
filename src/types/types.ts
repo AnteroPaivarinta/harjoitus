@@ -16,19 +16,6 @@ export interface IElectricityTableData {
   longestNegativePriceHours: number;
 }
 
-export interface IDailyElectricityData {
-  date: string;
-  totalConsumption: number;
-  totalProduction: number;
-  averagePrice: number;
-  longestNegativePriceHours: number;
-}
-
-export interface ISingleDayElectricityData
-  extends Omit<IDailyElectricityData, "longestNegativePriceHours"> {
-  hourWithMostConsumptionComparedToProduction: string;
-  cheapestElectricityHours: string[];
-}
 
 export interface ISingleDayChartProps {
   data: IElectricityData[]
