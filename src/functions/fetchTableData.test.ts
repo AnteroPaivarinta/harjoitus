@@ -4,7 +4,9 @@ import { fetchDashboardData } from "./fetchTableData";
 import type { IElectricityData } from "../types/types";
 
 jest.mock("axios");
-
+jest.mock("../config", () => ({
+  API_URL: "http://localhost:3000/api/dashboard",
+}));
 const mockedAxios = axios as jest.Mocked<typeof axios>;
 
 describe("fetchDashboardData", () => {

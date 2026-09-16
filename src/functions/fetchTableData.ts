@@ -5,8 +5,6 @@ import { API_URL } from "../config";
 export const fetchDashboardData = async (): Promise<IElectricityData[]> => {
   
   const apiDashBoardUrl = API_URL;
-  console.log("APIURL", API_URL);
-
   try {
     const response = await axios.get<IElectricityData[]>(
       apiDashBoardUrl
