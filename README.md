@@ -1,4 +1,6 @@
-# Dev Academy Autumn 2026 Exercise
+# Solita's Jr. Dev Academy Autumn 2026 Exercise
+
+This project was part of Solita's Jr. Dev Academy Interview. The purpose of this project was to develop a web application that combines electricity production and consumption data from Fingrid with electricity market price data. The application allows users to explore daily statistics, compare electricity production and consumption, and analyze fluctuations in electricity prices through a clear user interface, tables, and graphical visualizations. 
 
 This project contains the backend and frontend services for the application. Make sure you have Docker and Node.js installed on your machine before getting started.
 
